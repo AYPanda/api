@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "core\\": "app/core",
+            "classes\\": "app/classes/",
+            "controllers\\" : "app/controllers",
+            "BL\\": "app/BL"
+        }
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
